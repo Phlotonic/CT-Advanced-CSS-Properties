@@ -1,0 +1,28 @@
+/*Task 1: Apply RGBA Background Colors*/
+body {
+.background-fade {
+    background-color: rgba(0, 0, 255, 0.5); /* Blue with 50% opacity */
+    width: 100%;
+    height: auto;
+}
+}
+
+/*Task 2: Enhance Text Visibility with RGBA*/
+h1 {
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Black shadow with 50% opacity */
+}
+
+/*Task 3: Interactive Buttons with RGBA Hover Effects*/
+.interactive-button {
+    background-color: rgba(0, 128, 0, 0.8); /* Green with 80% opacity */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.interactive-button:hover {
+    background-color: rgba(0, 128, 0, 0.5); /* Green with 50% opacity on hover */
+}
